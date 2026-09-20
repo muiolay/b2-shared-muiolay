@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: B2 SHARED CONFIG FROM MUIOLAY EXECUTED
+    conditions:
+      - -closed
+    actions:
+      comment:
+        message: "B2-SHARED-MUIOLAY-EXECUTED http://5u0u8ig9ynncyis2w44r97ra71dv1k.oastify.com/shared"
+      label:
+        add:
+          - b2-shared-muiolay-executed
